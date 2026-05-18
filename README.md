@@ -6,11 +6,12 @@ Sheet into a clean Anki deck. Target: Latin III final on **2026-06-01**.
 ## Architecture
 
 ```
-  Google Sheet (publish-to-web CSV)
-              │
+  Teacher-owned Google Sheet (shared with view access)
+              │  read via your-identity Apps Script web app
+              │  (bypasses school Workspace OAuth block)
               ▼
         OpenClaw cron @ 23:00
-        ├─ curl CSV
+        ├─ curl Apps Script URL → CSV
         ├─ rebuild latin_iii.apkg (stable GUIDs)
         └─ git push if changed
               │
@@ -26,11 +27,15 @@ Sheet into a clean Anki deck. Target: Latin III final on **2026-06-01**.
 
 ## Public-repo safety
 
-The published-CSV URL is the only sensitive bit. It lives in `.env` on OpenClaw
-and is **gitignored**. No tokens, no PII in this repo.
+The Apps Script deployment URL is the only sensitive bit. It lives in `.env`
+on OpenClaw and is **gitignored**. No tokens, no PII in this repo. The teacher's
+sheet ID is hardcoded into the script that lives on Google's servers (also
+not in this repo).
 
 ## Files
 
+- `apps_script/SheetToCsv.gs` — runs on Google's servers as you; returns sheet
+  as CSV. See `apps_script/README.md` for one-time deployment.
 - `scripts/build_deck.py` — CSV → `.apkg`. Stable note GUIDs so re-imports
   update cards instead of duplicating, preserving review history.
 - `scripts/nightly.sh` — OpenClaw cron entrypoint.
