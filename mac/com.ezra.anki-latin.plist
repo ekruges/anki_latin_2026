@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ezra.anki-latin</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/ezrakruger/claudecodegeneralworkspace/anki_latin_2026/mac/anki_sync.sh</string>
+  </array>
+  <key>StartInterval</key>
+  <integer>1800</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/ezrakruger/Library/Logs/anki-latin/launchd.out</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/ezrakruger/Library/Logs/anki-latin/launchd.err</string>
+</dict>
+</plist>
