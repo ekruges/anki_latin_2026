@@ -91,13 +91,16 @@ MODEL = genanki.Model(
     css=CARD_CSS,
 )
 
-# Map common header variants to canonical names.
+# Map common header variants to canonical names. Anything not listed here is
+# preserved verbatim and folded into Notes downstream (Source, Sequence, ...).
 HEADER_ALIASES = {
     "latin": "Latin",
     "word": "Latin",
     "term": "Latin",
     "vocabulary": "Latin",
     "vocab": "Latin",
+    "headword": "Latin",
+    "lemma": "Latin",
     "part of speech": "PartOfSpeech",
     "pos": "PartOfSpeech",
     "type": "PartOfSpeech",
@@ -110,6 +113,8 @@ HEADER_ALIASES = {
     "note": "Notes",
     "comments": "Notes",
 }
+
+CORE_FIELDS = {"Latin", "PartOfSpeech", "English", "Notes"}
 
 
 def normalize_header(h: str) -> str:
@@ -140,11 +145,29 @@ def parse_csv(path: Path) -> list[dict]:
         english = record.get("English", "").strip()
         if not latin or not english:
             continue
+
+        # Anything outside the four core fields gets folded into Notes as
+        # "Source: Rubricuculla · Sequence: 1" style metadata so the card
+        # back stays informative even when the sheet adds new columns.
+        extras = []
+        for h in headers:
+            if h in CORE_FIELDS:
+                continue
+            val = record.get(h, "").strip()
+            if val:
+                extras.append(f"{h}: {val}")
+        base_notes = record.get("Notes", "").strip()
+        if extras:
+            extra_str = " · ".join(extras)
+            combined = f"{base_notes}\n{extra_str}" if base_notes else extra_str
+        else:
+            combined = base_notes
+
         notes.append({
             "Latin": latin,
             "PartOfSpeech": record.get("PartOfSpeech", "").strip(),
             "English": english,
-            "Notes": record.get("Notes", "").strip(),
+            "Notes": combined,
         })
     return notes
 

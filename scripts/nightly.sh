@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
-# Nightly job (runs on OpenClaw): fetch CSV, rebuild .apkg, commit if changed.
+# Nightly job (runs on OpenClaw): fetch sheet → rebuild .apkg → commit if changed.
 #
 # Requires:
-#   - .env in repo root with CSV_URL=...
-#   - python3 + genanki installed (pip install --user genanki)
-#   - SSH access to GitHub for git push (deploy key or agent forwarding)
+#   - .env in repo root with SHEET_ID (and optionally SHEET_GID)
+#   - python3 + genanki + requests
+#   - The schoology-sync skill at the default path (for Google cookies +
+#     headless re-auth on stale sessions). Override via GDOCS_* env vars.
+#   - SSH deploy key for git push
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_DIR"
 
-# Load CSV_URL
 if [[ ! -f .env ]]; then
   echo "missing .env (copy from .env.example)" >&2
   exit 1
@@ -18,8 +19,8 @@ fi
 # shellcheck disable=SC1091
 set -a; . ./.env; set +a
 
-if [[ -z "${CSV_URL:-}" || "$CSV_URL" == *REPLACE-ME* ]]; then
-  echo "CSV_URL not set in .env" >&2
+if [[ -z "${SHEET_ID:-}" || "$SHEET_ID" == *REPLACE-ME* ]]; then
+  echo "SHEET_ID not set in .env" >&2
   exit 1
 fi
 
@@ -28,10 +29,12 @@ mkdir -p data deck state
 # Sync with remote first (in case of conflicts)
 git pull --rebase --autostash origin "$(git symbolic-ref --short HEAD)" >/dev/null 2>&1 || true
 
-# Fetch CSV
+# Fetch CSV via existing schoology-sync cookies
 TMP_CSV="$(mktemp)"
 trap 'rm -f "$TMP_CSV"' EXIT
-curl -fsSL "$CSV_URL" -o "$TMP_CSV"
+GID_ARG=()
+[[ -n "${SHEET_GID:-}" ]] && GID_ARG=(--gid "$SHEET_GID")
+python3 scripts/fetch_sheet.py "$SHEET_ID" "$TMP_CSV" "${GID_ARG[@]}"
 
 # Hash check: only rebuild + commit when the upstream sheet actually changed
 NEW_SHA="$(sha256sum "$TMP_CSV" | cut -d' ' -f1)"
