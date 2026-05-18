@@ -1,9 +1,0 @@
-.env
-.venv/
-__pycache__/
-*.pyc
-.DS_Store
-
-# local state files
-state/last_csv_sha.txt
-state/last_import.txt
