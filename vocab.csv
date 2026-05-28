@@ -100,7 +100,6 @@ rogō rogāre rogāvī rogātus,to ask,Verb,Rubricuculla,1
 ruber rubra rubrum,red,Adjective,Rubricuculla,1
 sed,but,Conjunction,Rubricuculla,1
 sedeō sedēre sēdī sessus,to sit,Verb,Rubricuculla,1
-sedeō sedēre sēdī sessus,to sit,Verb,Rubricuculla,1
 sēmita –ae f.,"lane, path",Noun,Rubricuculla,1
 semper,always,Adverb,Rubricuculla,1
 silva silvae f.,forest,Noun,Rubricuculla,1
@@ -165,7 +164,6 @@ appāreō apparēre apparuī apparitus,"to appear, become visible",Verb,Romulus 
 appellō appellāre appellāvī appellātus,to call,Verb,Romulus and Remus II-III,4
 arma armōrum n.,"arms, weapons",Noun,Romulus and Remus II-III,4
 avus avī m.,grandfather,Noun,Romulus and Remus II-III,4
-coepī coepisse coeptum,to begin,Verb,Romulus and Remus II-III,4
 cōnstituō cōnstituere cōnstituī cōnstitūtus,to establish; decide,Verb,Romulus and Remus II-III,4
 crēscō crēscere crēvī crētus,"to grow, increase",Verb,Romulus and Remus II-III,4
 cupīdō cupidinis f.,"desire, craving",Noun,Romulus and Remus II-III,4
@@ -187,7 +185,6 @@ posteā,afterwards,Adverb,Romulus and Remus II-III,4
 postquam,after,Conjunction,Romulus and Remus II-III,4
 puer puerī m.,boy,Noun,Romulus and Remus II-III,4
 quamquam,although,Conjunction,Romulus and Remus II-III,4
-quoque,also,Adverb,Romulus and Remus II-III,4
 reddō reddere reddidī redditus,"to give back, return",Verb,Romulus and Remus II-III,4
 regō regere rēxī rēctus,to rule,Verb,Romulus and Remus II-III,4
 rīdeō rīdēre rīsī rīsus,to laugh,Verb,Romulus and Remus II-III,4
@@ -209,18 +206,13 @@ aedificō aedificāre aedificāvī aedificātus,"to build, erect, establish",Ver
 agō agere ēgī āctus,"to drive, do, act, concern oneself with",Verb,Regiones XIV,5
 annus annī m.,year,Noun,Regiones XIV,5
 ascendō ascendere ascendī ascēnsus,to ascend,Verb,Regiones XIV,5
-caput capitis n.,head,Noun,Regiones XIV,5
 circus –ī m.,racetrack,Noun,Regiones XIV,5
-coepī coepisse coeptum,to begin,Verb,Regiones XIV,5
 colō colere coluī cultus,"to inhabit, cultivate, worship",Verb,Regiones XIV,5
 cōnficiō cōnficere cōnfēcī cōnfectus,to complete,Verb,Regiones XIV,5
 contineō continēre continuī contentus,"to contain, restrain",Verb,Regiones XIV,5
-conveniō convenīre convēnī conventus,to assemble; agree,Verb,Regiones XIV,5
 corpus corporis n.,body,Noun,Regiones XIV,5
 dēdicō dēdicāre dēdicāvī dēdicātus,"to declare, dedicate",Verb,Regiones XIV,5
-discēdō discēdere discessī discessum,"to go away, depart",Verb,Regiones XIV,5
 hic haec hoc,"this, these",Pronoun,Regiones XIV,5
-homō hominis m.,"human being, man",Noun,Regiones XIV,5
 horreum –ī n.,"barn, granary",Noun,Regiones XIV,5
 hortus hortī m.,garden,Noun,Regiones XIV,5
 imperātor imperātōris m.,commander,Noun,Regiones XIV,5
@@ -280,7 +272,6 @@ suī sibi sē sē,"himself, herself, itself (reflexive)",Pronoun,In culina,8
 suus –a –um,his/her/its own,Adjective,In culina,8
 abeō abīre abiī abitum,to go away,Verb,Monstrationes,9
 adeō adīre adīvī/adiī aditus,to go to,Verb,Monstrationes,9
-adveniō advenīre advēnī adventus,to arrive,Verb,Monstrationes,9
 dexter dextra dextrum,"right, on the right side",Adjective,Monstrationes,9
 eō,"there, in that place; for that reason",Adverb,Monstrationes,9
 eō īre iī/īvī itum,to go,Verb,Monstrationes,9
@@ -298,20 +289,16 @@ pereō perīre periī peritūs,to perish,Verb,Monstrationes,9
 pergō pergere perrēxī perrēctus,to proceed,Verb,Monstrationes,9
 perveniō pervenīre pervēnī perventus,to reach,Verb,Monstrationes,9
 praetereō praeterīre praeterīvī/praeteriī praeteritus,to go by,Verb,Monstrationes,9
-quō,"where; to what purpose, in order that",Adverb,Monstrationes,9
 redeō redīre rediī reditum,to go back,Verb,Monstrationes,9
 sinister –a –um,left,Adjective,Monstrationes,9
 trānseō trānsīre trānsīvī/trānsiī trānsitus,to go across,Verb,Monstrationes,9
 unde,"from where, whence",Adverb,Monstrationes,9
 vehō vehere vēxī vectus,to carry; passive: to ride,Verb,Monstrationes,9
 aestās aestātis f.,summer,Noun,De temporibus,10
-annus annī m.,year,Noun,De temporibus,10
 autumnus autumnī m.,fall,Noun,De temporibus,10
 diēs diēī m. or f.,day,Noun,De temporibus,10
 hebdomas –adis f.,"seventh day, week",Noun,De temporibus,10
 hiems hiemis f.,winter,Noun,De temporibus,10
-hōra hōrae f.,hour,Noun,De temporibus,10
-mēnsis mēnsis m.,month,Noun,De temporibus,10
 merīdiēs merīdiēī m.,midday,Noun,De temporibus,10
 noctū,by night,Adverb,De temporibus,10
 nox noctis f.,night,Noun,De temporibus,10
@@ -322,7 +309,6 @@ addō addere addidī additus,"to give to, to add",Verb,De anno Romano,11
 auferō auferre abstulī ablātus,to take away; to steal,Verb,De anno Romano,11
 calor –ōris m.,warmth,Noun,De anno Romano,11
 coepī,"to have begun (I began, etc.)",Verb,De anno Romano,11
-cōnficiō cōnficere cōnfēcī cōnfectus,to complete,Verb,De anno Romano,11
 conveniō convenīre convēnī conventus,to assemble; agree with (+ dat.),Verb,De anno Romano,11
 cursus cursūs m.,course,Noun,De anno Romano,11
 dīvidō dīvidere dīvīsī dīvīsus,"to divide, separate",Verb,De anno Romano,11
@@ -340,52 +326,38 @@ neque or nec,and not,Conjunction,De anno Romano II,12
 pontifex pontificis m.,priest,Noun,De anno Romano II,12
 propter,because of (+ acc.),Preposition,De anno Romano II,12
 putō putāre putāvī putātus,to think,Verb,De anno Romano II,12
-quī quae quod,"who, which",Pronoun,De anno Romano II,12
 quīdam quaedam quiddam,a certain person/thing,Pronoun,De anno Romano II,12
 scīlicet,certainly,Adverb,De anno Romano II,12
 trānsferō trānsferre trānstulī trānslātus,to bring across,Verb,De anno Romano II,12
 ultimus -a -um,"farthest, last",Adjective,De anno Romano II,12
 alius alia aliud (archaic: alis alid),"other, another",Adjective,De brevibus spatiis,13
-brevis breve,"short, brief",Adjective,De brevibus spatiis,13
 mercātor –ōris m.,"merchant, trader",Noun,De brevibus spatiis,13
-negōtium negōti(ī) n.,business,Noun,De brevibus spatiis,13
 nūndinae –ārum f.,"market-day, the ninth day, fair day",Noun,De brevibus spatiis,13
 orbis orbis m.,"circle, orb",Noun,De brevibus spatiis,13
 spatium spati(ī) n.,space,Noun,De brevibus spatiis,13
 stēlla stēllae f.,star,Noun,De brevibus spatiis,13
 maior māius,"bigger, greater",Adjective,Irregular Comparatives,14
-māximus –a –um,"greatest, biggest",Adjective,Irregular Comparatives,14
 melior melius,better,Adjective,Irregular Comparatives,14
 minimus –a –um,"least, smallest",Adjective,Irregular Comparatives,14
 minor minus,"lesser, smaller",Adjective,Irregular Comparatives,14
 optimus –a –um,"best, excellent",Adjective,Irregular Comparatives,14
 peior peius,worse,Adjective,Irregular Comparatives,14
 pessimus –a –um,worst,Adjective,Irregular Comparatives,14
-cotīdiē or cottīdiē or quotidiē,"every day, daily",Adverb,De stellis errantibus,15
-lentus –a –um,"flexible, sticky",Adjective,De stellis errantibus,15
 longinquus –a –um,remote (in time or space),Adjective,De stellis errantibus,15
 nūntius nūnti(ī) m.,messenger; news,Noun,De stellis errantibus,15
 occidō occidere occidī occāsus,to go down; set; fall,Verb,De stellis errantibus,15
-ōrdō ōrdinis m.,row,Noun,De stellis errantibus,15
 propior propius; proximus –a –um,nearer; nearest,Noun,De stellis errantibus,15
 quam,"than; as, how",Adverb,De stellis errantibus,15
 tam,so,Adverb,De stellis errantibus,15
-coepī coepisse coeptum,"to have begun (I began, etc.)",Verb,Auxiliary Verbs,16
 dēbeō dēbēre dēbuī dēbitus,"ought, must (+ inf.); to owe",Verb,Auxiliary Verbs,16
-incipiō incipere incēpī inceptus,to begin,Verb,Auxiliary Verbs,16
 licet licēre licuit/licitum est,it is permitted (+ dat. & inf.),Verb,Auxiliary Verbs,16
 placet placere placuit,it is pleasing (+ dat. & inf.),Idiom,Auxiliary Verbs,16
 possum posse potuī,"to be able, can",Verb,Auxiliary Verbs,16
-soleō solēre solitus sum,to be accustomed (+ inf.),Verb,Auxiliary Verbs,16
 vidētur vidērī vīsum est,it seems good (+ dat. & inf.),Idiom,Auxiliary Verbs,16
 agnus agnī m.,lamb (male),Noun,Lupus et Agnus,17
 ante,"before, in front of (adv. and prep. +acc.)",Preposition,Lupus et Agnus,17
-bibō bibere bibī,to drink,Verb,Lupus et Agnus,17
-causa causae f.,"cause, reason, lawsuit",Noun,Lupus et Agnus,17
 īnferus –a –um,low,Adjective,Lupus et Agnus,17
-lupus lupī m.,wolf,Noun,Lupus et Agnus,17
 quōmodo,how,Adverb,Lupus et Agnus,17
-vīs vis f.,force,Noun,Lupus et Agnus,17
 auxilium auxilī n.,"aid, help",Noun,Mus et Rana,18
 callidus –a –um,clever,Adjective,Mus et Rana,18
 corvus –ī m.,raven,Noun,Mus et Rana,18
@@ -410,7 +382,6 @@ cornīx –īcis f.,crow,Noun,Cornix et urna,20
 pugna pugnae f.,"battle, fight",Noun,Pvgna mvrivm et mustelarvm,21
 mors mortis f.,death,Noun,Pvgna mvrivm et mustelarvm,21
 angustus –a –um,narrow,Adjective,Pvgna mvrivm et mustelarvm,21
-recipiō recipere recēpī receptus,to take back,Verb,Pvgna mvrivm et mustelarvm,21
 effugiō effugere effūgī,"to flee, escape",Verb,Pvgna mvrivm et mustelarvm,21
 facile,easily,Adverb,Pvgna mvrivm et mustelarvm,21
 cornū cornūs f.,horn,Noun,Pvgna mvrivm et mustelarvm,21
@@ -423,7 +394,6 @@ mūs mūris m.,mouse,Noun,Pvgna mvrivm et mustelarvm,21
 mūstēla (mūstella) –ae f.,a weasel,Noun,Pvgna mvrivm et mustelarvm,21
 āmittō āmittere āmīsī āmīssus,"to send away, lose",Verb,Duae fabulae caninae,22
 carō carnis f.,"meat, flesh",Noun,Duae fabulae caninae,22
-ōs ōris n.,"mouth, face",Noun,Duae fabulae caninae,22
 subitō,suddenly,Adverb,Duae fabulae caninae,22
 stultus –a –um,foolish,Adjective,Duae fabulae caninae,22
 sapiēns –ntis,wise,Adjective,Duae fabulae caninae,22
@@ -432,3 +402,24 @@ lingua linguae f.,tongue; language,Noun,Duae fabulae caninae,22
 alter altera alterum,other of two,Adjective,Duae fabulae caninae,22
 canis canis m. or f.,dog,Noun,Duae fabulae caninae,22
 dēcipiō dēcipere dēcēpī dēceptus,"to deceive, cheat",Verb,Duae fabulae caninae,22
+audeō audēre ausus sum,to dare,Verb,Aliae fabulae de mure et leone,23
+quidem,moreover,Adverb,Aliae fabulae de mure et leone,23
+negō negāre negāvī negātus,"to deny, refuse",Verb,Aliae fabulae de mure et leone,23
+surgō surgere surrēxī surrēctus,to rise,Verb,Aliae fabulae de mure et leone,23
+tantus –a –um,so much,Adjective,Aliae fabulae de mure et leone,23
+sūmō sūmere sūmpsī sūmptus,"to take up, consume",Verb,Vulpes dicaces,24
+aegrē,with difficulty,Adverb,Testudines certantes,25
+certus –a –um,"sure, fixed",Adjective,Testudines certantes,25
+frūstrā,in vain,Adverb,Testudines certantes,25
+interim,meanwhile,Adverb,Testudines certantes,25
+paene,almost,Adverb,Testudines certantes,25
+cēna cēnae f.,dinner,Noun,Duo Mures,26
+cōpia cōpiae f.,abundance; troops,Noun,Duo Mures,26
+fēlīx fēlīcis,fortunate,Adjective,Duo Mures,26
+fuga fugae f.,flight,Noun,Duo Mures,26
+hospes hospitis m.,guest; stranger; host,Noun,Duo Mures,26
+hospitium hospiti(ī) n.,hospitality,Noun,Duo Mures,26
+moveō movēre mōvī mōtus,to move,Verb,Duo Mures,26
+relinquō relinquere relīquī relictus,to abandon,Verb,Duo Mures,26
+ūllus –a –um,any,Adjective,Duo Mures,26
+vīvō vīvere vīxī vīctus,to live,Verb,Duo Mures,26
